@@ -1,0 +1,3 @@
+color : yellow
+seriffont : Garamond
+sansfont : Open Sans
