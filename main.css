@@ -54,6 +54,13 @@ body {
 .submit-button:hover {
     background-color: #0056b3;
 }
+
+/*classe flexbox permettant de placer à droite le "submit" boutton*/
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
 header {
     display: flex;
     justify-content: space-between;
