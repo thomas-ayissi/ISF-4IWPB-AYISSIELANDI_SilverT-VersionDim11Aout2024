@@ -14,102 +14,57 @@ body {
 }
 .top-bar-left .logo {
     font-size: 1.5em;
-    color: #333;
+    color: #000;
 }
-.top-bar-right {
+.submit-release {
+    position: absolute;
+    right: 20px;
+    top: calc(100% + 20px); /* Ajustez la valeur selon la distance souhaitée */
+}
+.menu-bar {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 15px;
+    background-color: #000; /* Assurez-vous que la bande noire a cette couleur */
+    padding: 15px 0;
 }
-.top-bar-right ul {
+.menu-bar ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
-.top-bar-right ul li a {
-    color: #333;
-    text-decoration: none;
+.menu-bar ul li {
+    margin: 0 15px;
+    color: #fff;
 }
-.top-bar-right ul li a:hover {
-    text-decoration: underline;
-}
-.submit-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-.submit-button:hover {
-    background-color: #0056b3;
-}
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-.header-right {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-.search-bar input {
-    padding: 5px;
-}
-main {
-    display: flex;
+.content {
     padding: 20px;
 }
-.articles {
-    flex: 3;
+.growth-jobs-article {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.growth-jobs-article img {
+    margin-right: 15px;
+}
+.growth-jobs-article .content {
+    max-width: 600px;
 }
 .sidebar {
-    flex: 1;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    width: 250px;
     background-color: #fff;
-    padding: 20px;
-    margin-left: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
 }
-article {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
+.sidebar h3 {
+    margin-top: 0;
 }
-article img {
-    max-width: 100%;
-    height: auto;
-}
-.sidebar article {
-    margin-bottom: 20px;
-}
-.sidebar article img {
-    max-width: 100%;
-    height: auto;
-}
-.sidebar article p {
-    margin: 5px 0;
-}
-.sidebar article h3 {
-    margin: 10px 0;
-}
-.sidebar article h3 a {
-    color: #007bff;
-    text-decoration: none;
-}
-.sidebar article h3 a:hover {
-    text-decoration: underline;
+.press-release {
+    margin-bottom: 15px;
 }
