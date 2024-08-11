@@ -14,38 +14,102 @@ body {
 }
 .top-bar-left .logo {
     font-size: 1.5em;
-    color: #000;
+    color: #333;
 }
-.submit-release {
-    position: absolute;
-    right: 20px;
-    top: calc(100% + 20px); /* Ajustez la valeur selon la distance souhaitée */
-}
-.menu-bar {
+.top-bar-right {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #000; /* Assurez-vous que la bande noire a cette couleur */
-    padding: 15px 0;
+    gap: 15px;
 }
-.menu-bar ul {
+.top-bar-right ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    gap: 15px;
     margin: 0;
     padding: 0;
 }
-.menu-bar ul li {
-    margin: 0 15px;
+.top-bar-right ul li a {
+    color: #333;
+    text-decoration: none;
 }
-.growth-jobs-article {
+.top-bar-right ul li a:hover {
+    text-decoration: underline;
+}
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.submit-button:hover {
+    background-color: #0056b3;
+}
+header {
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.search-bar input {
+    padding: 5px;
+}
+main {
+    display: flex;
+    padding: 20px;
+}
+.articles {
+    flex: 3;
+}
+.sidebar {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+}
+article {
+    background-color: #fff;
+    padding: 20px;
     margin-bottom: 20px;
 }
-.growth-jobs-article img {
-    margin-right: 15px;
+article img {
+    max-width: 100%;
+    height: auto;
 }
-.growth-jobs-article .content {
-    max-width: 600px;
+.sidebar article {
+    margin-bottom: 20px;
+}
+.sidebar article img {
+    max-width: 100%;
+    height: auto;
+}
+.sidebar article p {
+    margin: 5px 0;
+}
+.sidebar article h3 {
+    margin: 10px 0;
+}
+.sidebar article h3 a {
+    color: #007bff;
+    text-decoration: none;
+}
+.sidebar article h3 a:hover {
+    text-decoration: underline;
 }
