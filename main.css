@@ -35,6 +35,14 @@ body {
 .top-bar-right ul li a:hover {
     text-decoration: underline;
 }
+
+
+.top-bar-left img:first-of-type {
+    width: 15%; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Maintient le ratio d'aspect de l'image */
+}
+
+
 .submit-button {
     background-color: #007bff;
     color: white;
