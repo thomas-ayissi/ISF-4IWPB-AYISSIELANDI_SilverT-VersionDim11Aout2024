@@ -3,6 +3,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
 }
 
 .top-bar {
@@ -48,6 +55,7 @@ body {
     border: none;
     padding: 10px 15px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .submit-button:hover {
@@ -61,6 +69,7 @@ header {
     background-color: #333;
     color: white;
     padding: 10px 20px;
+    width: 100%;
 }
 
 nav ul {
@@ -87,6 +96,7 @@ nav ul li a {
 main {
     display: flex;
     padding: 20px;
+    width: 100%;
 }
 
 .articles {
@@ -111,20 +121,28 @@ article img {
     height: auto;
 }
 
-.sidebar ul {
-    list-style: none;
-    padding: 0;
+.sidebar article {
+    margin-bottom: 20px;
 }
 
-.sidebar ul li {
-    margin-bottom: 10px;
+.sidebar article img {
+    max-width: 100%;
+    height: auto;
 }
 
-.sidebar ul li a {
+.sidebar article p {
+    margin: 5px 0;
+}
+
+.sidebar article h3 {
+    margin: 10px 0;
+}
+
+.sidebar article h3 a {
     color: #007bff;
     text-decoration: none;
 }
 
-.sidebar ul li a:hover {
+.sidebar article h3 a:hover {
     text-decoration: underline;
 }
