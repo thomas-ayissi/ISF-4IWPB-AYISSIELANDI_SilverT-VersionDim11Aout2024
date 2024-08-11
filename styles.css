@@ -37,10 +37,6 @@ body {
 }
 .menu-bar ul li {
     margin: 0 15px;
-    color: #fff;
-}
-.content {
-    padding: 20px;
 }
 .growth-jobs-article {
     display: flex;
@@ -52,19 +48,4 @@ body {
 }
 .growth-jobs-article .content {
     max-width: 600px;
-}
-.sidebar {
-    position: absolute;
-    right: 20px;
-    top: 100px;
-    width: 250px;
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ddd;
-}
-.sidebar h3 {
-    margin-top: 0;
-}
-.press-release {
-    margin-bottom: 15px;
 }
