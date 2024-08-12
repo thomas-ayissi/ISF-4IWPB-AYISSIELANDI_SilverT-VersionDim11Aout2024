@@ -69,15 +69,38 @@ header {
     color: white;
     padding: 10px 20px;
 }
-nav ul {
-    list-style: none;
+
+.top-menu {
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; /* Assurez-vous que le conteneur prend toute la hauteur de la page */
+    width: 100%; /* Prend toute la largeur de la page */
 }
-nav ul li a {
-    color: white;
+
+.top-menu menu {
+    list-style: none; /* Supprime les puces */
+    display: flex; /* Aligne les éléments horizontalement */
+    padding: 0;
+    margin: 0;
+    width: 70%; /* Prend toute la largeur disponible */
+    justify-content: space-between; /* Espace les éléments */
+}
+
+.top-menu menu li {
+    flex-grow: 1; /* Permet aux éléments de croître pour occuper l'espace disponible */
+    text-align: center; /* Centre le texte dans chaque élément */
+}
+
+.top-menu menu li a {
+    color: white; /* Texte en couleur blanche */
     text-decoration: none;
+    white-space: nowrap; /* Empêche le retour à la ligne */
 }
+
+
+
+
 .header-right {
     display: flex;
     align-items: center;
