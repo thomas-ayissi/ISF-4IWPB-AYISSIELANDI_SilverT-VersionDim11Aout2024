@@ -243,6 +243,36 @@ article {
     padding: 20px;
     margin-bottom: 20px;
 }
+
+/* Début Articles principaux */
+
+.article-container {
+    overflow: hidden; /* Pour contenir les flottants */
+}
+
+.article-image {
+    float: left;
+    margin: 0 20px 20px 0; /* Espace autour de l'image */
+    width: 150px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
+
+.article-content {
+    overflow: hidden; /* Pour contenir les flottants */
+}
+
+.article-content h2 {
+    margin-top: 0;
+}
+
+.article-content .source {
+    clear: both; /* Pour s'assurer que la section "Source" soit sous l'image */
+    margin-top: 20px; /* Espace au-dessus de la section "Source" */
+}
+
+/* Fin Articles principaux */
+
+/* Début articles "side bar - Situés à coté, à droite*/
 article img {
     max-width: 100%;
     height: auto;
@@ -267,3 +297,6 @@ article img {
 .sidebar article h3 a:hover {
     text-decoration: underline;
 }
+
+/* Fin articles "side bar" - situés à coté*/
+
