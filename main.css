@@ -318,20 +318,19 @@ article img {
 /* Fin articles "side bar" - situés à coté*/
 
 /* Début Footer */
-
 .footer {
     background-color: #6a6262; /* Couleur de fond sombre */
     color: #fff; /* Couleur du texte claire */
-    padding: 20px;
+    padding: 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; /* Centre les éléments horizontalement */
 }
 
 .footer-section {
     flex: 1;
     min-width: 200px;
-    margin: 10px;
+    margin: 0 2%; /* Réduit l'espace entre les colonnes et l'exprime en pourcentage */
 }
 
 .footer-section h3 {
@@ -374,6 +373,7 @@ article img {
 hr {
     border: 0;
     border-top: 1px solid #444; /* Couleur de la ligne horizontale */
+    width: 100%;
     margin: 20px 0;
 }
 
@@ -381,11 +381,12 @@ hr {
     text-align: center;
     margin-top: 10px;
     font-size: 14px;
-
+    width: 100%; /* Assure que le texte de copyright occupe toute la largeur */
 }
 
 .footer-copyright a {
     color: #ffffff;
     text-decoration: underline;
 }
+
 /* Fin Footer */
