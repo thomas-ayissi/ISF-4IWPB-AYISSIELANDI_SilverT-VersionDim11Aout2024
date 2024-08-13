@@ -1,11 +1,21 @@
 html, body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: #f4f4f4;
+    background-color: #e3bf11;
 }
+
+/* Utilisation de la police Garamond pour les titres H1, H2 et H3 */
+h1, h2, h3, h4, h5 {
+    font-family: Garamond, serif;
+}
+
+/* Utilisation de la police Open Sans pour les paragraphes */
+p {
+    font-family: Open Sans, sans-serif;
+}
+
 
 .container {
     max-width: 1200px; /* Définissez une largeur maximale pour le conteneur */
@@ -183,12 +193,7 @@ header {
     font-weight: bold;
 }
 
-.custom-h1 {
-    font-size: 2em; /* Taille de police similaire à un H1 */
-    font-weight: bold; /* Gras comme un H1 */
-    margin: 0.67em 0; /* Marges par défaut d'un H1 */
-    line-height: 1.2; /* Hauteur de ligne */
-}
+
 
 
 .bottom-line {
@@ -390,3 +395,60 @@ hr {
 }
 
 /* Fin Footer */
+
+
+
+/*Début CSS - Page Recherche*/
+
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    justify-content: space-between; /* Ajoute cet alignement */
+}
+
+.form-group {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: calc(50% - 10px); /* Ajuste la largeur des groupes de formulaires */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end; /* Aligne le bouton à droite */
+    width: 100%; /* Assure que le bouton occupe toute la largeur disponible */
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/*Fin CSS - Page Recherche*/
