@@ -151,9 +151,26 @@ header {
 }
 
 /*  */
-.top-line div {
+.top-line {
     display: flex;
     align-items: center;
+}
+
+.top-line span {
+    display: flex;
+    align-items: center;
+}
+
+.top-line span:first-child {
+    margin-right: 0.9%; /* Ajuste cette valeur pour l'espace souhaité */
+}
+
+.top-line span:nth-child(2){
+    margin-right: 0.9%; /* Ajuste cette valeur pour l'espace souhaité */
+}
+
+.top-line span:-child {
+    margin-right: 0.9%; /* Ajuste cette valeur pour l'espace souhaité */
 }
 
 .top-line p {
