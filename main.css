@@ -317,3 +317,75 @@ article img {
 
 /* Fin articles "side bar" - situés à coté*/
 
+/* Début Footer */
+
+.footer {
+    background-color: #6a6262; /* Couleur de fond sombre */
+    color: #fff; /* Couleur du texte claire */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #444; /* Couleur de la ligne horizontale */
+    margin: 20px 0;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+
+.footer-copyright a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* Fin Footer */
