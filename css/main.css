@@ -88,6 +88,12 @@ p {
     justify-content: flex-end;
 }
 
+
+
+/*  */
+/*  */
+/*  */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -101,30 +107,49 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vh; /* Assurez-vous que le conteneur prend toute la hauteur de la page */
-    width: 100%; /* Prend toute la largeur de la page */
+    height: 5vh;
+    width: 100%;
 }
 
 .top-menu menu {
-    list-style: none; /* Supprime les puces */
-    display: flex; /* Aligne les éléments horizontalement */
+    list-style: none;
+    display: flex;
     padding: 0;
     margin: 0;
-    width: 70%; /* Prend toute la largeur disponible */
-    justify-content: space-between; /* Espace les éléments */
+    width: 70%;
+    justify-content: space-between;
 }
 
 .top-menu menu li {
-    flex-grow: 1; /* Permet aux éléments de croître pour occuper l'espace disponible */
-    text-align: center; /* Centre le texte dans chaque élément */
+    flex-grow: 1;
+    text-align: center;
 }
 
-.top-menu menu li a {
-    color: white; /* Texte en couleur blanche */
+.top-menu #dropdown-menu li a {
+    color: #f4f4f4;
     text-decoration: none;
-    white-space: nowrap; /* Empêche le retour à la ligne */
+    white-space: nowrap;
 }
 
+.hamburger-menu {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#dropdown-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+#dropdown-menu li {
+    margin: 0 10px;
+}
+
+#dropdown-menu a {
+    text-decoration: none;
+    color: black;
+}
 
 .header-right {
     display: flex;
@@ -134,18 +159,22 @@ header {
 
 .search-bar {
     display: flex;
-    justify-content: flex-start; /* Aligne la barre de recherche à gauche */
+    justify-content: flex-start;
 }
 
 .search-bar input {
-    width: 90%; /* Rendre la barre de recherche plus large */
-    height: 50%; /* Rendre la barre de recherche plus haute */
-    padding: 15% 5%; /* Ajuste le padding pour plus de confort */
+    width: 90%;
+    height: 50%;
+    padding: 15% 5%;
     border-left: 10%;
-    margin-left: 0; /* Déplace la barre de recherche vers la gauche */
-    margin-right: 0; /* Supprime la marge à droite */
-    box-sizing: border-box; /* Assure que le padding est inclus dans la largeur et la hauteur */
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
 }
+
+/*  */
+/*  */
+/*  */
 
 /* Début : Les deux lignes  avant les articles*/
 .sub-header {
@@ -397,6 +426,148 @@ hr {
 /* Fin Footer */
 
 
+/* DEBUT MEDIAS QUERIES */
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+
+
+    .top-bar-left img:first-of-type {
+        width: 15%; /* Ajustez la largeur selon vos besoins */
+        height: auto; /* Maintient le ratio d'aspect de l'image */
+    }
+
+
+
+
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    #dropdown-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #dropdown-menu li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+
+/* */
+/* */
+/* */
+    main {
+    flex-direction: column;
+     }
+
+     .article-image {
+       float: none;
+       margin: 0 auto 20px;
+       display: block;
+    }
+
+    .article-content {
+    text-align: center;
+    }
+
+
+    /* */
+    /* */
+    /* */
+
+
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+
+
+
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    #dropdown-menu {
+        display: none;
+    }
+
+
+    /* */
+    /* */
+    /* */
+
+    .article-image {
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+    }
+
+    .article-content {
+        text-align: center;
+    }
+
+    /* */
+    /* */
+    /* */
+
+}
+
+@media (min-width: 1025px) {
+
+
+
+
+
+
+
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    #dropdown-menu {
+        display: flex;
+    }
+    /*  */
+    /*  */
+    /*  */
+
+    /*  */
+    /*  */
+    /*  */
+
+}
+
+
+
+/*  */
+/*  */
+/*  */
+
+
+/* FIN MEDIAS QUERIES*/
+
+
+
+
+
+
+
+
 
 /*Début CSS - Page Recherche*/
 
@@ -455,113 +626,6 @@ button[type="submit"]:hover {
 
 
 /*Début Medias Queries*/
-
-/* Media Queries */
-
-/* Tablettes */
-@media (max-width: 768px) {
-    .top-bar {
-        flex-direction: column;
-    }
-
-    .top-bar-left, .top-bar-right {
-        width: 100%;
-        text-align: center;
-    }
-
-    .top-bar-right ul {
-        flex-direction: column;
-    }
-
-    .articles {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .article-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .article-image {
-        width: 100%;
-        height: auto;
-    }
-
-    .article-content {
-        width: 100%;
-    }
-
-    .top-bar-left img:first-of-type {
-        width: 50%;
-    }
-
-    .top-menu {
-        display: none;
-    }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-
-    .hamburger-menu {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hamburger-menu.active {
-        display: flex;
-    }
-}
-
-/* Smartphones en mode paysage */
-@media (max-width: 576px) {
-    .top-bar {
-        flex-direction: column;
-    }
-
-    .top-bar-left, .top-bar-right {
-        width: 100%;
-        text-align: center;
-    }
-
-    .top-bar-right ul {
-        flex-direction: column;
-    }
-
-    .articles {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .article-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .article-image {
-        width: 100%;
-        height: auto;
-    }
-
-    .article-content {
-        width: 100%;
-    }
-
-    .top-bar-left img:first-of-type {
-        width: 50%;
-    }
-
-    .top-menu {
-        display: none;
-    }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
 
 
 
