@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-
 <body>
   <div class="container">
      <div class="top-bar">
@@ -32,18 +31,20 @@
   </div>
 
   <header>
-      <div class="top-menu">
-          <div class="hamburger-menu" onclick="toggleMenu()">
-              &#9776; <!--  icone Menu Hamburger-->
-          </div>
-          <menu id="dropdown-menu">
-              <li><a href="index.html">About / Accueil</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Distribution</a></li>
-              <li><a href="#">Press Releases</a></li>
-              <li><a href="article.html">Newswires / Article</a></li>
-              <li><a href="recherche.html">Knowledge Base /  Formulaire</a></li>
-          </menu>
+      <div class="menu">
+          <!-- Utilisation d'une checkbox -->
+          <input type="checkbox" id="hamburger">
+          <!-- Label de la checkbox -->
+          <label id="hamburger-logo" for="hamburger">☰</label>
+          <!-- Le reste du menu -->
+          <nav>
+              <a href="index.html">About / Accueil</a>
+              <a href="#">Pricing</a>
+              <a href="#">Distribution</a>
+              <a href="#">Press Releases</a>
+              <a href="article.html">Newswires / Article</a>
+              <a href="recherche.html">Knowledge Base /  Formulaire</a>
+          </nav>
       </div>
       <div class="header-right">
           <div class="social-icons">
