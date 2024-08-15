@@ -92,44 +92,69 @@ p {
 
 /*  */
 /*  */
-/*  Gestion Menu */
-header {
-    display: flex;
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
-    background-color: #333;
-    /*color: #0056b3;*/
-    padding: 10px 20px;
+/* Ci-dessous Fin SAVE ALL CSS - Ven 16 Aout 2024 - 01h25 */
+body {
+    margin: 0;
+    color: white; /* Afficher le texte en blanc */
 }
-
-/* Début CSS - Jeu 15 Aout 2024 - Affichage Menu Ordinateur et Tablette */
 
 .menu {
-    color: white; /* Afficher le texte en blanc */
-    text-align: center; /* Centrer le menu sur la page */
+    display: flex;
+    justify-content: center; /* Centrer le menu */
+    align-items: center;
+    width: 100%;
 }
 
-.menu nav {
+.header-right {
+    display: flex;
+    justify-content: center; /* Centrer la searchbox */
+    align-items: center;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#hamburger {
+    display: none; /* Cacher la checkbox sur les grands écrans */
+}
+
+#hamburger-logo {
+    cursor: pointer;
+    background: black;
+    width: 200px;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    display: none; /* Cacher le symbole Hamburger sur les grands écrans */
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
     list-style: none; /* Supprimer les puces */
     padding: 0;
-    display: inline-block; /* Centrer le menu */
 }
 
-.menu nav a {
+nav a {
     color: white; /* Afficher les liens en blanc */
     text-decoration: none; /* Supprimer la couleur bleue des liens */
-    margin: 0 10px; /* Espacement entre les liens */
+    padding: 10px;
+    display: block;
 }
 
-#hamburger, #hamburger-logo {
-    display: none; /* Cacher le symbole Hamburger et la case de la checkbox sur les écrans d'ordinateur ou de tablette */
+nav a:hover {
+    background: #444;
 }
 
-
-/* Fin CSS - Jeu 15 Aout 2024 - Affichage Menu Ordinateur et Tablette */
-
-
-/*  */
+/*  Ci-dessus Fin SAVE ALL CSS - Ven 16 Aout 2024 - 01h25 */
 /*  */
 /*  */
 
@@ -388,222 +413,43 @@ hr {
 /* DEBUT MEDIAS QUERIES */
 
 
-/* Responsive styling */
-@media (max-width: 768px) {
-
-
-    .top-bar-left img:first-of-type {
-        width: 15%; /* Ajustez la largeur selon vos besoins */
-        height: auto; /* Maintient le ratio d'aspect de l'image */
-    }
-
-
-
-
-    body {
-        /* Pour coller le menu au bord, sans espace */
-        margin: 0;
-    }
-
+@media (min-width: 769px) {
     .menu {
-        /* Pour que le menu reste en place quand on scroll */
-        position: fixed;
-        /* Pour que le menu ne soit pas sur le texte et que ce dernier puisse être sélectionné */
-        width: 0px;
+        flex-direction: row; /* Afficher les liens à l'horizontale sur les grands écrans */
+        justify-content: center; /* Centrer les liens du menu */
     }
 
-    main {
-        /* Pour que le texte ne soit pas sous le menu */
-        margin-left: 50px;
-        width: 500px;
-        text-align: justify;
+    nav {
+        flex-direction: row; /* Afficher les liens à l'horizontale sur les grands écrans */
+    }
+
+    #hamburger-logo {
+        display: none; /* Cacher le symbole Hamburger sur les grands écrans */
     }
 
     #hamburger {
-        /* Pour que la checkbox ne s'affiche pas */
-        display: none;
+        display: none; /* Cacher la checkbox sur les grands écrans */
     }
+}
 
-        #hamburger-logo {
-        /* Pour que le curseur soit un pointeur */
-        cursor: pointer;
-        background: black;
-        width: 200px;
-        display: block;
-        color: white;
-        /* Pour que le menu hamburger s'affiche toujours */
-        text-align: right;
-        /* Pour que le menu hamburger soit "rangé" par défaut */
-        transform: translateX(-168px);
-        padding: 10px;
+@media (max-width: 768px) {
+    #hamburger-logo {
+        display: block; /* Afficher le symbole Hamburger sur les petits écrans */
     }
 
     nav {
-        display: flex;
-        flex-direction: column;
-        background: black;
-        overflow: hidden;
-        width: 200px;
-        /* Pour que les liens soient "rangés" par défaut */
-        transform: translateX(-200px);
+        display: none; /* Cacher le menu par défaut sur les petits écrans */
     }
 
-    #hamburger-logo,
-    nav {
-        /* Pour qu'il y ait une animation */
-        transition: 0.7s;
+    #hamburger:checked + #hamburger-logo + nav {
+        display: block; /* Afficher le menu lorsque la checkbox est cochée */
     }
-
-
-    /* IMPORTANT Début- Jeu 15 Aout 2024 22h55- Cette partie permet que lorsqu'on clique sur le hamburger, le menu se déploie*/
-    /* Lorsque #hamburger est coché, le #hamburger-logo et le nav qui sont dans le même parent changent de propriété */
-    #hamburger:checked ~ #hamburger-logo,
-    #hamburger:checked ~ nav {
-        /* Changement de la position pour afficher les menus */
-       transform: translate(0);
-    }
-    /* IMPORTANT Fin - Jeu 15 Aout 2024 22h55- Cette partie permet que lorsqu'on clique sur le hamburger, le menu se déploie*/
 
     nav a {
-        color: white;
-        text-decoration: none;
-        padding: 10px;
+        display: block; /* Afficher les liens du menu en ligne sur les petits écrans */
     }
-
-    nav a:hover {
-        background: #444;
-    }
-
-
-
-
-
-
-
-
-
-
-
-/*
-    .hamburger-menu {
-        display: block;
-    }
-
-    #dropdown-menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 50px;
-        left: 0;
-        width: 100%;
-        background-color: white;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    #dropdown-menu li {
-        margin: 10px 0;
-        text-align: center;
-    } */
-
-
-/* */
-/* */
-/* */
-    main {
-    flex-direction: column;
-     }
-
-     .article-image {
-       float: none;
-       margin: 0 auto 20px;
-       display: block;
-    }
-
-    .article-content {
-    text-align: center;
-    }
-
-
-    /* */
-    /* */
-    /* */
-
-
-
-
 }
-
-@media (min-width: 769px) and (max-width: 1024px) {
-
-
-
-
-
-/*
-    .hamburger-menu {
-        display: none;
-    }
-
-    #dropdown-menu {
-        display: none;
-    } */
-
-
-    /* */
-    /* */
-    /* */
-
-    .article-image {
-        float: none;
-        margin: 0 auto 20px;
-        display: block;
-    }
-
-    .article-content {
-        text-align: center;
-    }
-
-    /* */
-    /* */
-    /* */
-
-}
-
-@media (min-width: 1025px) {
-
-
-
-
-
-
-
-
- /*   .hamburger-menu {
-        display: none;
-    }
-
-    #dropdown-menu {
-        display: flex;
-    } */
-    /*  */
-    /*  */
-    /*  */
-
-    /*  */
-    /*  */
-    /*  */
-
-}
-
-
-
-/*  */
-/*  */
-/*  */
-
-
-/* FIN MEDIAS QUERIES*/
-
+/* FIN MEDIAS QUERIES */
 
 
 
