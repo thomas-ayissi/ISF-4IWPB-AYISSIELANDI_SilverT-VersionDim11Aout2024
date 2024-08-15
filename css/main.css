@@ -92,85 +92,42 @@ p {
 
 /*  */
 /*  */
-/*  */
-
+/*  Gestion Menu */
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
     background-color: #333;
-    color: #0056b3;
+    /*color: #0056b3;*/
     padding: 10px 20px;
 }
 
-.top-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5vh;
-    width: 100%;
+/* Début CSS - Jeu 15 Aout 2024 - Affichage Menu Ordinateur et Tablette */
+
+.menu {
+    color: white; /* Afficher le texte en blanc */
+    text-align: center; /* Centrer le menu sur la page */
 }
 
-.top-menu menu {
-    list-style: none;
-    display: flex;
+.menu nav {
+    list-style: none; /* Supprimer les puces */
     padding: 0;
-    margin: 0;
-    width: 70%;
-    justify-content: space-between;
+    display: inline-block; /* Centrer le menu */
 }
 
-.top-menu menu li {
-    flex-grow: 1;
-    text-align: center;
+.menu nav a {
+    color: white; /* Afficher les liens en blanc */
+    text-decoration: none; /* Supprimer la couleur bleue des liens */
+    margin: 0 10px; /* Espacement entre les liens */
 }
 
-.top-menu #dropdown-menu li a {
-    color: #f4f4f4;
-    text-decoration: none;
-    white-space: nowrap;
+#hamburger, #hamburger-logo {
+    display: none; /* Cacher le symbole Hamburger et la case de la checkbox sur les écrans d'ordinateur ou de tablette */
 }
 
-.hamburger-menu {
-    font-size: 30px;
-    cursor: pointer;
-    display: none;
-}
 
-#dropdown-menu {
-    display: flex;
-    list-style-type: none;
-}
+/* Fin CSS - Jeu 15 Aout 2024 - Affichage Menu Ordinateur et Tablette */
 
-#dropdown-menu li {
-    margin: 0 10px;
-}
-
-#dropdown-menu a {
-    text-decoration: none;
-    color: black;
-}
-
-.header-right {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.search-bar {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.search-bar input {
-    width: 90%;
-    height: 50%;
-    padding: 15% 5%;
-    border-left: 10%;
-    margin-left: 0;
-    margin-right: 0;
-    box-sizing: border-box;
-}
 
 /*  */
 /*  */
@@ -426,6 +383,8 @@ hr {
 /* Fin Footer */
 
 
+
+
 /* DEBUT MEDIAS QUERIES */
 
 
@@ -465,7 +424,7 @@ hr {
         display: none;
     }
 
-    #hamburger-logo {
+        #hamburger-logo {
         /* Pour que le curseur soit un pointeur */
         cursor: pointer;
         background: black;
@@ -495,12 +454,15 @@ hr {
         transition: 0.7s;
     }
 
+
+    /* IMPORTANT Début- Jeu 15 Aout 2024 22h55- Cette partie permet que lorsqu'on clique sur le hamburger, le menu se déploie*/
     /* Lorsque #hamburger est coché, le #hamburger-logo et le nav qui sont dans le même parent changent de propriété */
     #hamburger:checked ~ #hamburger-logo,
     #hamburger:checked ~ nav {
         /* Changement de la position pour afficher les menus */
-        transform: translate(0);
+       transform: translate(0);
     }
+    /* IMPORTANT Fin - Jeu 15 Aout 2024 22h55- Cette partie permet que lorsqu'on clique sur le hamburger, le menu se déploie*/
 
     nav a {
         color: white;
@@ -522,7 +484,7 @@ hr {
 
 
 
-
+/*
     .hamburger-menu {
         display: block;
     }
@@ -541,7 +503,7 @@ hr {
     #dropdown-menu li {
         margin: 10px 0;
         text-align: center;
-    }
+    } */
 
 
 /* */
@@ -577,14 +539,14 @@ hr {
 
 
 
-
+/*
     .hamburger-menu {
         display: none;
     }
 
     #dropdown-menu {
         display: none;
-    }
+    } */
 
 
     /* */
@@ -616,13 +578,13 @@ hr {
 
 
 
-    .hamburger-menu {
+ /*   .hamburger-menu {
         display: none;
     }
 
     #dropdown-menu {
         display: flex;
-    }
+    } */
     /*  */
     /*  */
     /*  */
