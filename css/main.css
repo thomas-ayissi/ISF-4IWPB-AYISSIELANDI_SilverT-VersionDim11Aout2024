@@ -6,16 +6,30 @@ html, body {
     background-color: #e3bf11;
 }
 
+
+/*début gestion des polices*/
+
+@font-face {
+    font-family: 'Garamond';
+    src: url('/lib/garamond-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/lib/open-sans/OpenSans-Regular.ttf') format('truetype');
+}
+
 /* Utilisation de la police Garamond pour les titres H1, H2 et H3 */
 h1, h2, h3, h4, h5 {
-    font-family: Garamond, serif;
+    font-family: 'Garamond', serif;
 }
+
 
 /* Utilisation de la police Open Sans pour les paragraphes */
 p {
-    font-family: Open Sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-
+/*fin gestion des polices*/
 
 .container {
     max-width: 1200px; /* Définit une largeur maximale pour le conteneur */
