@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f948fe14-30dd-447b-a01e-708b85206ea6" name="Changes" comment="12K-Q-1 MENU XXL Centré +  Search Box Centrée (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Tout le reste fonctionne : article s'affichant sous la photo&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;">
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="BranchISFWeb-V3Correct-DesMar13Aout2024-FromBranch12K-B" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.1" />
+  <component name="ProjectId" id="2kVkxvhG9qhb6QQPQaxKFZi7f1f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/thomasayissi/Documents/ISF-4IWPB-AYISSIELANDI_SilverT-VersionDim11Aout2024&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/script" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/media/icons" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="commandLineParameters" value="" />
+      <option name="pathToComposerJson" value="$USER_HOME$/sites_thomas_des_21_mai_2022/CF2M_PHP_Projet_Twig_V20_Sam_21_Mai_2022/NewsWebPrepaTest/composer.phar.sha256sum" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f948fe14-30dd-447b-a01e-708b85206ea6" name="Changes" comment="" />
+      <created>1723376381466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723376381466</updated>
+      <workItem from="1723376382617" duration="6386000" />
+      <workItem from="1723401148264" duration="25396000" />
+      <workItem from="1723556543854" duration="61358000" />
+    </task>
+    <task id="LOCAL-00007" summary="Iteration 7 ( design retored n+1 - but it's next step css n-1)">
+      <created>1723381843934</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723381843935</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Iteration 7 ( design rebroken - Screenshoot problems)">
+      <created>1723400512709</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723400512709</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Iteration 9 ( retour a version avant pause apres midi )">
+      <created>1723401006860</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723401006860</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Iteration 10 ( moins mauvaise version avant pause apres midi )">
+      <created>1723401732500</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723401732500</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Iteration 11 ( CP demande directement à partir de l'URL du site Jamaica NewsWire)">
+      <created>1723401846990</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723401846990</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Iteration 12 ( Départ de Iteration 7 Design Restored - Debut Travail Dim 11 Aout 2024 Soire)&#10;1=&gt;Ajout : images +  readme + pages recherche.html + formulaire.html&#10;2=&gt;Modification nom du fichier css : passage de styles.css à main.css">
+      <created>1723404324568</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723404324568</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Iteration 12A ( Départ de Iteration 7 Design Restored - Debut Travail Dim 11 Aout 2024 Soire)&#10;1=&gt;connexion avec image logo&#10;2=&gt;suppression texte balise div mais maintien de la balise">
+      <created>1723405398075</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723405398075</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Iteration 12B ( Départ de Iteration 7 Design Restored - Debut Travail Dim 11 Aout 2024 Soir)&#10;1=&gt;Petites puces ajoutées entre les 3 liens dont le &quot;log in&quot;&#10;2=&gt;">
+      <created>1723406047719</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723406047719</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Iteration 12C ( Départ de Iteration 7 Design Restored - Debut Travail Dim 11 Aout 2024 Soir)&#10;1=&gt;Correction des titres du menu : les titres correct sont à présent mis&#10;2=&gt;">
+      <created>1723406581469</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723406581469</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Iteration 12D ( Départ de Iteration 7 Design Restored - Debut Travail Dim 11 Aout 2024 Soir)&#10;1=&gt;Correction barre de recherche :  ajout &quot;News&quot; pour avoir &quot;News Research&quot;&#10;2=&gt;Logo placé dans la balise Div&#10;3=&gt;Mise du boutton dans une Div avec la classe flexbox &quot;button-container&quot;&#10;4=&gt;Boutton submit : ça fonctionne, il passe à droite de la page">
+      <created>1723408963006</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723408963006</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Iteration 12E (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Centrage du menu&#10;2=&gt;Modification de la balise du menu. Exit Ul/Li =&gt; Choix balise &quot;Menu&quot;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723489874687</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723489874687</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Iteration 12F (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Centrage de la page&#10;2=&gt;Indentation correcte de l'intégralité du code&#10;3=&gt;&#10;4=&gt;">
+      <created>1723492418464</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723492418464</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Iteration 12G (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Menu centré&#10;2=&gt;Menu barre horizontale noire sur toute la longeur de la page&#10;3=&gt;Page centrée avec des barres verticales blanches à gauche et à droite&#10;4=&gt;">
+      <created>1723495781175</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723495781176</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Iteration 12H (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Inclusion 2 lignes &quot;Jamaica Newswire Perspectify&quot; - Récupéré de mon projet précédent&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723547501206</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723547501206</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Iteration 12I (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Changement couleur du HEADER : avant White, désormais même couleur que l'arrière plan de toute la page (#0056b3)&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723547635525</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723547635525</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Iteration 12I Bis (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Changement background couleur du HEADER : avant #333, désormais #0056b3&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723547752643</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723547752643</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Iteration 12I Ter (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Changement background couleur du HEADER : avant #333, désormais #0056b3. Oups, c'était une erreur. En fait ce background là désigne la couleur e la barre du menu. Elle est passée au bleu. Donc, je rétro pédale !&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723548051046</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723548051046</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Iteration 12I Quater (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Changement background couleur du HEADER : &quot;Top Bar&quot; New : #f4f4f4 Old : #fff&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723548216501</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723548216501</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Iteration 12J (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout correct des Deux lignes avant les articles. Lignes situées sous le menu principal&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723550401635</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723550401635</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Iteration 12K (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout icones réseaux sociaux dans la première ligne sous le menu&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723550617943</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1723550617943</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Iteration 12L (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout sous dossier icons + images-small + images-huge dans dossier media&#10;2=&gt;Ajout images dans dossier images-small et images-huge&#10;3=&gt;&#10;4=&gt;">
+      <created>1723552372308</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723552372308</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Iteration 12L (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout sous dossier icons + images-small + images-huge dans dossier media&#10;2=&gt;Ajout plein d'images dans dossier images-small et images-huge&#10;3=&gt;&#10;4=&gt;">
+      <created>1723552797906</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723552797906</updated>
+    </task>
+    <task id="LOCAL-00029" summary="NewBranchV3-Mar13Aout2024-Iteration 12K (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout sous dossier icons + images-small &#10;2=&gt;Ajout plein d'images dans dossier images-small&#10;3=&gt;Déplacement icones dans sous-dossier icons&#10;4=&gt;">
+      <created>1723553822642</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1723553822642</updated>
+    </task>
+    <task id="LOCAL-00030" summary="12K-B (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout plein images dans dossier images-small&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723553971702</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1723553971702</updated>
+    </task>
+    <task id="LOCAL-00031" summary="12K-C (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout plein images dans dossier images-huge&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723554110836</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1723554110836</updated>
+    </task>
+    <task id="LOCAL-00032" summary="12K-D (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Suppression grosses images dans dossier images-huge&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723554593307</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1723554593307</updated>
+    </task>
+    <task id="LOCAL-00033" summary="12K-E (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout images dans dossier images-huge&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723555550737</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1723555550737</updated>
+    </task>
+    <task id="LOCAL-00034" summary="12K-F (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Suppression images dans dossier images-huge&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723556007924</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1723556007924</updated>
+    </task>
+    <task id="LOCAL-00035" summary="12K-F (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Suppression images dans dossier images-huge&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723556047041</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1723556047041</updated>
+    </task>
+    <task id="LOCAL-00036" summary="12K-B Beta (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Test Push après problèmes avec gros fichiers images&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723556745188</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1723556745188</updated>
+    </task>
+    <task id="LOCAL-00037" summary="12K-C (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout Image dans un article : trop grande. Avant de faire els corrections, je sauvegarde&#10;2=&gt;Nouvel ajout textes correct dans &quot;Source&quot; et Institution&#10;3=&gt;&#10;4=&gt;">
+      <created>1723557430044</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1723557430044</updated>
+    </task>
+    <task id="LOCAL-00038" summary="12K-D (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout Image tous les articles : colonne de gauche et colonne de droite&#10;2=&gt;Ajout des détails de publication&#10;3=&gt;Ajout aussi des textes sous &quot;Featured Releases&quot;&#10;4=&gt;">
+      <created>1723564552510</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1723564552510</updated>
+    </task>
+    <task id="LOCAL-00039" summary="12K-E (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Mddification de la division de la page. Partie droite, passage de 1 à 2. .sidebar {&#10;                                                                                flex: 2;&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723565103507</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1723565103507</updated>
+    </task>
+    <task id="LOCAL-00040" summary="12K-F (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout espace entre Jamaica Newswire et Perspectify&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723566659517</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1723566659517</updated>
+    </task>
+    <task id="LOCAL-00041" summary="12K-G (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout footer&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723567599952</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1723567599952</updated>
+    </task>
+    <task id="LOCAL-00042" summary="12K-H (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Footer centré, pas comme on le souhaiterait, mais on s'en contentera. Il prend toute la longeur de la page&#10;2=&gt;Icones réseaux sociaux placées dans le footer&#10;3=&gt;Copyright placé sous le footer et centré&#10;4=&gt;">
+      <created>1723568845359</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1723568845359</updated>
+    </task>
+    <task id="LOCAL-00043" summary="12K-I (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout possibilité de cliquer sur le titre de l'article et sur la photo de l'article pour aller lire le texte&#10;2=&gt;Suppression autres fichiers (on conserve juste les 3 demandés par le prof + 1 fichier &quot;template&quot;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723579020935</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1723579020935</updated>
+    </task>
+    <task id="LOCAL-00044" summary="12K-I (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout possibilité de cliquer sur le titre de l'article et sur la photo de l'article pour aller lire le texte&#10;2=&gt;Suppression autres fichiers (on conserve juste les 3 demandés par le prof + 1 fichier &quot;template&quot;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723581938692</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1723581938692</updated>
+    </task>
+    <task id="LOCAL-00045" summary="12K-J (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout possibilité de cliquer sur le titre de l'article et sur la photo de l'article pour aller lire le texte&#10;2=&gt;Suppression autres fichiers (on conserve juste les 3 demandés par le prof + 1 fichier &quot;template&quot;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723582174766</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1723582174766</updated>
+    </task>
+    <task id="LOCAL-00046" summary="12K-K (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout possibilité de cliquer sur le titre de l'article et sur la photo de l'article pour aller lire le texte&#10;2=&gt;Suppression autres fichiers (on conserve juste les 3 demandés par le prof + 1 fichier &quot;template&quot;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723582295806</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1723582295806</updated>
+    </task>
+    <task id="LOCAL-00047" summary="12K-L (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;création dossier css demandé par le prof. Transfert du fichier &quot;main.css&quot; dans ce dossier là&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723582805610</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1723582805610</updated>
+    </task>
+    <task id="LOCAL-00048" summary="12K-M (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout MediaQueries - Vides, juste 4 tailles&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723589575034</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1723589575034</updated>
+    </task>
+    <task id="LOCAL-00049" summary="12K-N A RETENIR (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Essai de MediaQueries - Pas interessant, car il faudrait tout casser. Il faut chercher une autre solution&#10;2=&gt;En fait, CoPilot change les noms de mes classes. J'ai donc effectivement les élements qui permettnt d'avoir un hamburger. Ce dernier apparait même. Mais les classes changeant, il faudra tout casser et recommencer à redéployer le menu, puis en définir la structure. a tous els coups, je vais supprimer des classes utilisées ailleurs et ce sera le bordel.&#10;&#10;&#10;3=&gt; Leçon : toujours faire els Medias-Queries AU DEBUT&#10;4=&gt;">
+      <created>1723611485723</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1723611485723</updated>
+    </task>
+    <task id="LOCAL-00050" summary="12K-P (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout Regles dans Medias Queries pour : articles (texte sous l'image), logo&#10;2=&gt;Trop de problèmes, d'incompatibilités. Nous supprimons des règles dans les Medias Queries et restons sur le plus simple.&#10;&#10;3=&gt; Leçon : toujours faire els Medias-Queries AU DEBUT&#10;4=&gt;">
+      <created>1723662382856</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1723662382856</updated>
+    </task>
+    <task id="LOCAL-00051" summary="12K-P Bis Pseudo Version Stable (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;&#10;2=&gt;&#10;&#10;3=&gt; Leçon : toujours faire els Medias-Queries AU DEBUT&#10;4=&gt;">
+      <created>1723674840087</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1723674840087</updated>
+    </task>
+    <task id="LOCAL-00052" summary="12K-P Ter (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt; Menu Ajouté sur page Accueil - Visible &#10;2=&gt; TAF 1 : ajouter ce menu sur Article et Formulaire&#10;&#10;3=&gt; TAF 2 : Afficher le même menuen version &quot;normale&quot; sur Ordinateur et Tablette&#10;4=&gt; TAF 3 : Changer Couleur du menu : passer du noir au blanc">
+      <created>1723676498457</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1723676498457</updated>
+    </task>
+    <task id="LOCAL-00053" summary="12K-Q Ter (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Menu &quot;Large&quot; Ok&#10;2=&gt; Menu &quot;smartPhone&quot; Ok&#10;3=&gt; Passage parfait du menu &quot;large&quot; (Ordinateur et Tablette) au menu &quot;Smartphone&quot;&#10;&#10;3=&gt; TAF 1 : centrer menu &quot;normal&quot; +  Search Bar&#10;4=&gt; TAF 2 : Afficher menu &quot;SmartPhone&quot; sous forme d'une vraie liste déroulante et non plus d'une liste où tous les éléments sont mélangés comme actuellement.">
+      <created>1723755630789</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1723755630789</updated>
+    </task>
+    <task id="LOCAL-00054" summary="12K-R Ter (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Plein de pagaille et de code copié et mal supprimé, j'ai perdu des fonctionnalités, nous allons reculer dans le temps et crééer une banche à partir du commit précédent.&#10;2=&gt; &#10;3=&gt; &#10;&#10;3=&gt; &#10;4=&gt;">
+      <created>1723765551298</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1723765551298</updated>
+    </task>
+    <task id="LOCAL-00055" summary="12K-Q-1 MENU XXL Centré +  Search Box Centrée (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Tout le reste fonctionne : article s'affichant sous la photo&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;">
+      <created>1723766306852</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1723766306852</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="BranchISFWeb-V4Correct-DesVen16Aout2024-FromBranch12K-Q" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="12K-E (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout images dans dossier images-huge&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-F (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Suppression images dans dossier images-huge&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-B (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Test Push après problemes avec gros fichiers images&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-B Alpha (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Test Push après problemes avec gros fichiers images&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-B Beta (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Test Push après problèmes avec gros fichiers images&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-C (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout Image dans un article : trop grande. Avant de faire els corrections, je sauvegarde&#10;2=&gt;Nouvel ajout textes correct dans &quot;Source&quot; et Institution&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-D (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout Image tous les articles : colonne de gauche et colonne de droite&#10;2=&gt;Ajout des détails de publication&#10;3=&gt;Ajout aussi des textes sous &quot;Featured Releases&quot;&#10;4=&gt;" />
+    <MESSAGE value="12K-E (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Mddification de la division de la page. Partie droite, passage de 1 à 2. .sidebar {&#10;                                                                                flex: 2;&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-F (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout espace entre Jamaica Newswire et Perspectify&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-G (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout footer&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-H (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Footer centré, pas comme on le souhaiterait, mais on s'en contentera. Il prend toute la longeur de la page&#10;2=&gt;Icones réseaux sociaux placées dans le footer&#10;3=&gt;Copyright placé sous le footer et centré&#10;4=&gt;" />
+    <MESSAGE value="12K-J (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Tout est placé : les 3 fichiers requis sont placés&#10;2=&gt; TAF : relire et corriger article.html + Voir quelles autres balises sémentiques ajouter dans l'article +  Faire Medias Queries &#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-J (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Tout est placé : les 3 fichiers requis sont placés&#10;2=&gt; TAF : relire et corriger article.html + Voir quelles autres balises sémentiques ajouter dans l'article +  Faire Medias Queries + Retirer explications/commentaires dans le code avant de l'envoyer au prof&#10;3=&gt; &#10;4=&gt;" />
+    <MESSAGE value="12K-I (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout possibilité de cliquer sur le titre de l'article et sur la photo de l'article pour aller lire le texte&#10;2=&gt;Suppression autres fichiers (on conserve juste les 3 demandés par le prof + 1 fichier &quot;template&quot;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-J (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout possibilité de cliquer sur le titre de l'article et sur la photo de l'article pour aller lire le texte&#10;2=&gt;Suppression autres fichiers (on conserve juste les 3 demandés par le prof + 1 fichier &quot;template&quot;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-K (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout possibilité de cliquer sur le titre de l'article et sur la photo de l'article pour aller lire le texte&#10;2=&gt;Suppression autres fichiers (on conserve juste les 3 demandés par le prof + 1 fichier &quot;template&quot;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-L (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;création dossier css demandé par le prof. Transfert du fichier &quot;main.css&quot; dans ce dossier là&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-M (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout MediaQueries - Vides, juste 4 tailles&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-N A RETENIR (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Essai de MediaQueries - Pas interessant, car il faudrait tout casser. Il faut chercher une autre solution&#10;2=&gt;En fait, CoPilot change les noms de mes classes. J'ai donc effectivement les élements qui permettnt d'avoir un hamburger. Ce dernier apparait même. Mais les classes changeant, il faudra tout casser et recommencer à redéployer le menu, puis en définir la structure. a tous els coups, je vais supprimer des classes utilisées ailleurs et ce sera le bordel.&#10;&#10;&#10;3=&gt; Leçon : toujours faire els Medias-Queries AU DEBUT&#10;4=&gt;" />
+    <MESSAGE value="12K-P (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout Regles dans Medias Queries pour : articles (texte sous l'image), logo&#10;2=&gt;Trop de problèmes, d'incompatibilités. Nous supprimons des règles dans les Medias Queries et restons sur le plus simple.&#10;&#10;3=&gt; Leçon : toujours faire els Medias-Queries AU DEBUT&#10;4=&gt;" />
+    <MESSAGE value="12K-P Bis Pseudo Version Stable (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;&#10;2=&gt;&#10;&#10;3=&gt; Leçon : toujours faire els Medias-Queries AU DEBUT&#10;4=&gt;" />
+    <MESSAGE value="12K-P Ter (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt; Menu Ajouté sur page Accueil - Visible &#10;2=&gt; TAF 1 : ajouter ce menu sur Article et Formulaire&#10;&#10;3=&gt; TAF 2 : Afficher le même menuen version &quot;normale&quot; sur Ordinateur et Tablette&#10;4=&gt; TAF 3 : Changer Couleur du menu : passer du noir au blanc" />
+    <MESSAGE value="12K-Q Ter (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Menu &quot;Large&quot; Ok&#10;2=&gt; Menu &quot;smartPhone&quot; Ok&#10;3=&gt; Passage parfait du menu &quot;large&quot; (Ordinateur et Tablette) au menu &quot;Smartphone&quot;&#10;&#10;3=&gt; TAF 1 : centrer menu &quot;normal&quot; +  Search Bar&#10;4=&gt; TAF 2 : Afficher menu &quot;SmartPhone&quot; sous forme d'une vraie liste déroulante et non plus d'une liste où tous les éléments sont mélangés comme actuellement." />
+    <MESSAGE value="12K-R Ter (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Plein de pagaille et de code copié et mal supprimé, j'ai perdu des fonctionnalités, nous allons reculer dans le temps et crééer une banche à partir du commit précédent.&#10;2=&gt; &#10;3=&gt; &#10;&#10;3=&gt; &#10;4=&gt;" />
+    <MESSAGE value="12K-Q-1 MENU XXL Centré +  Search Box Centrée (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Tout le reste fonctionne : article s'affichant sous la photo&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="12K-Q-1 MENU XXL Centré +  Search Box Centrée (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Tout le reste fonctionne : article s'affichant sous la photo&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;" />
+  </component>
+</project>

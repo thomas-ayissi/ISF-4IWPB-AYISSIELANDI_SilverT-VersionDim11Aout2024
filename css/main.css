@@ -391,147 +391,164 @@ hr {
 /* Responsive styling */
 @media (max-width: 768px) {
 
+    /* Applique les styles ci-dessous pour les écrans de largeur maximale de 768px */
 
+    /* .container: Utilise un conteneur flexible avec une direction de colonne et centre les éléments */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .top-bar: Barre supérieure flexible avec une direction de colonne, centrée et pleine largeur */
+    .top-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* .top-bar-left .logo: Taille de police de 1.75rem pour le logo, équivalent à la taille H3 */
+    .top-bar-left .logo {
+        font-size: 1.75rem; /* Equivalent to H3 size */
+    }
+
+
+
+    /* .button-container: Marge supérieure de 10px pour le conteneur de boutons */
+    .button-container {
+        margin-top: 10px;
+    }
+
+    /* header: En-tête flexible avec une direction de colonne, centrée, padding de 10px et fond de couleur #333 */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        background-color: #333;
+    }
+
+
+
+    /* .header-right: Conteneur droit de l'en-tête flexible, centré, pleine largeur et marge supérieure de 10px */
+    .header-right {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* .search-bar: Barre de recherche avec marge à gauche automatique */
+    .search-bar {
+        margin-left: auto;
+    }
+
+    /* .search-bar input: Champ de saisie avec padding de 10px et taille de police de 16px */
+    .search-bar input {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    /* #hamburger, #hamburger-logo: Taille de police de 1.75rem pour le hamburger et son logo, équivalent à la taille H3 */
+    #hamburger,
+    #hamburger-logo {
+        font-size: 1.75rem; /* Equivalent to H3 size */
+    }
+
+    /* .top-bar-left img:first-of-type: Largeur de 15% pour la première image de .top-bar-left, hauteur automatique pour maintenir le ratio */
     .top-bar-left img:first-of-type {
-        width: 15%; /* Ajustez la largeur selon vos besoins */
+        width: 25%; /* Ajustez la largeur selon vos besoins */
         height: auto; /* Maintient le ratio d'aspect de l'image */
     }
 
-
-
-
+    /* body: Supprime la marge pour coller le menu au bord sans espace */
     body {
-        /* Pour coller le menu au bord, sans espace */
         margin: 0;
     }
 
+    /* .menu: Menu fixe pour rester en place lors du défilement, largeur de 0px pour ne pas chevaucher le texte */
     .menu {
-        /* Pour que le menu reste en place quand on scroll */
         position: fixed;
-        /* Pour que le menu ne soit pas sur le texte et que ce dernier puisse être sélectionné */
         width: 0px;
     }
 
+    /* main: Texte avec marge à gauche de 50px pour éviter le chevauchement avec le menu, largeur de 500px et texte justifié */
     main {
-        /* Pour que le texte ne soit pas sous le menu */
         margin-left: 50px;
         width: 500px;
         text-align: justify;
     }
 
+    /* #hamburger: Cache la checkbox du hamburger */
     #hamburger {
-        /* Pour que la checkbox ne s'affiche pas */
         display: none;
     }
 
-        #hamburger-logo {
-        /* Pour que le curseur soit un pointeur */
+    /* #hamburger-logo: Curseur pointeur, fond noir, largeur de 200px, affichage en bloc, texte blanc, aligné à droite, rangé par défaut avec translation, padding de 10px */
+    #hamburger-logo {
         cursor: pointer;
         background: black;
         width: 200px;
         display: block;
         color: white;
-        /* Pour que le menu hamburger s'affiche toujours */
         text-align: right;
-        /* Pour que le menu hamburger soit "rangé" par défaut */
         transform: translateX(-168px);
         padding: 10px;
     }
 
+    /* nav: Navigation flexible avec une direction de colonne, fond noir, débordement caché, largeur de 200px, liens rangés par défaut avec translation */
     nav {
         display: flex;
         flex-direction: column;
         background: black;
         overflow: hidden;
         width: 200px;
-        /* Pour que les liens soient "rangés" par défaut */
         transform: translateX(-200px);
     }
 
+    /* #hamburger-logo, nav: Transition de 0.7s pour les animations */
     #hamburger-logo,
     nav {
-        /* Pour qu'il y ait une animation */
         transition: 0.7s;
     }
 
-
-    /* IMPORTANT Début- Jeu 15 Aout 2024 22h55- Cette partie permet que lorsqu'on clique sur le hamburger, le menu se déploie*/
-    /* Lorsque #hamburger est coché, le #hamburger-logo et le nav qui sont dans le même parent changent de propriété */
+    /* #hamburger:checked ~ #hamburger-logo, #hamburger:checked ~ nav: Affiche les menus en changeant la position lors du clic sur le hamburger */
     #hamburger:checked ~ #hamburger-logo,
     #hamburger:checked ~ nav {
-        /* Changement de la position pour afficher les menus */
-       transform: translate(0);
+        transform: translate(0);
     }
-    /* IMPORTANT Fin - Jeu 15 Aout 2024 22h55- Cette partie permet que lorsqu'on clique sur le hamburger, le menu se déploie*/
 
+    /* nav a: Liens de navigation en blanc, sans soulignement, padding de 10px */
     nav a {
         color: white;
         text-decoration: none;
         padding: 10px;
     }
 
+    /* nav a:hover: Fond gris foncé pour les liens au survol */
     nav a:hover {
         background: #444;
     }
 
+    /* main: Direction de colonne pour les articles sous l'image */
+    main {
+        flex-direction: column;
+    }
 
-
-
-
-
-
-
-
-
-
-/*
-    .hamburger-menu {
+    /* .article-image: Image d'article centrée, sans flottement, marge automatique en bas de 20px, affichage en bloc */
+    .article-image {
+        float: none;
+        margin: 0 auto 20px;
         display: block;
     }
 
-    #dropdown-menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 50px;
-        left: 0;
-        width: 100%;
-        background-color: white;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    #dropdown-menu li {
-        margin: 10px 0;
-        text-align: center;
-    } */
-
-
-/* */
-/* */
-/* */
-    main {
-    flex-direction: column;
-     }
-
-     .article-image {
-       float: none;
-       margin: 0 auto 20px;
-       display: block;
-    }
-
+    /* .article-content: Contenu de l'article centré */
     .article-content {
-    text-align: center;
+        text-align: center;
     }
-
-
-    /* */
-    /* */
-    /* */
-
-
-
-
 }
+
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
