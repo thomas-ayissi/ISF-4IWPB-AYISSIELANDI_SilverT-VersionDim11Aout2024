@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f948fe14-30dd-447b-a01e-708b85206ea6" name="Changes" comment="12K-Q-6 Ajout favicon + Image dans Article + FigCaption dans image (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Après Midi 16h49)&#10;1=&gt; TAF 1/ Passer le code dans CP pour le commenter de façon uniforme.&#10;2=&gt; TAF 2/ Relire l'énoncé et vérifier que nous avons fait tout ce qui est demandé. Que nous avons nommé tous les dossiers comme demandé&#10;3=&gt; TAF 3/ Crééer une branche &quot;Travail Avant TAF&quot; : puis supprimer tous les fichiers et dossiers non requis dans le devoir, commiter + pusher et faire la branche &quot;Travail TAF&quot; qui sera rendue.&#10;&#10;3=&gt;&#10;4=&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f948fe14-30dd-447b-a01e-708b85206ea6" name="Changes" comment="12K-Q-7 Ajout favicon + Image dans Article + FigCaption dans image (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Après Midi 16h49)&#10;1=&gt; Relecture CSS +  Correction, traduction de tous les commentaires CSS en français, suppression commentaires inutiles et de fragments de codes mis en commentaires">
       <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recherche.html" beforeDir="false" afterPath="$PROJECT_DIR$/recherche.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-site-web-sans-mainVen16Aout2024.html" beforeDir="false" afterPath="$PROJECT_DIR$/template-site-web-sans-mainVen16Aout2024.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +85,7 @@
       <workItem from="1723376382617" duration="6386000" />
       <workItem from="1723401148264" duration="25396000" />
       <workItem from="1723556543854" duration="61489000" />
-      <workItem from="1723771078212" duration="9370000" />
-    </task>
-    <task id="LOCAL-00012" summary="Iteration 12 ( Départ de Iteration 7 Design Restored - Debut Travail Dim 11 Aout 2024 Soire)&#10;1=&gt;Ajout : images +  readme + pages recherche.html + formulaire.html&#10;2=&gt;Modification nom du fichier css : passage de styles.css à main.css">
-      <created>1723404324568</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1723404324568</updated>
+      <workItem from="1723771078212" duration="9699000" />
     </task>
     <task id="LOCAL-00013" summary="Iteration 12A ( Départ de Iteration 7 Design Restored - Debut Travail Dim 11 Aout 2024 Soire)&#10;1=&gt;connexion avec image logo&#10;2=&gt;suppression texte balise div mais maintien de la balise">
       <created>1723405398075</created>
@@ -435,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723819821249</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="12K-Q-7 Ajout favicon + Image dans Article + FigCaption dans image (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Après Midi 16h49)&#10;1=&gt; Relecture CSS +  Correction, traduction de tous les commentaires CSS en français, suppression commentaires inutiles et de fragments de codes mis en commentaires">
+      <created>1723820824790</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1723820824790</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12K-C (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout Image dans un article : trop grande. Avant de faire els corrections, je sauvegarde&#10;2=&gt;Nouvel ajout textes correct dans &quot;Source&quot; et Institution&#10;3=&gt;&#10;4=&gt;" />
     <MESSAGE value="12K-D (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout Image tous les articles : colonne de gauche et colonne de droite&#10;2=&gt;Ajout des détails de publication&#10;3=&gt;Ajout aussi des textes sous &quot;Featured Releases&quot;&#10;4=&gt;" />
     <MESSAGE value="12K-E (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Mddification de la division de la page. Partie droite, passage de 1 à 2. .sidebar {&#10;                                                                                flex: 2;&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
     <MESSAGE value="12K-F (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout espace entre Jamaica Newswire et Perspectify&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
@@ -490,6 +484,7 @@
     <MESSAGE value="12K-Q-4 All Work is Finish - Tout Fonctionne (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Matin 03h51)&#10;1=&gt; TAF 1) Relire l'article&#10;2=&gt; &#10;3=&gt; &#10;&#10;3=&gt;&#10;4=&gt;" />
     <MESSAGE value="12K-Q-5 All Work is Finish + Texte article.html corrigé- Tout Fonctionne (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Matin 04h48)&#10;1=&gt; TAF 1/ Passer le code dans CP pour le commenter de façon uniforme.&#10;2=&gt; TAF 2/ Relire l'énoncé et vérifier que nous avons fait tout ce qui est demandé. Que nous avons nommé tous les dossiers comme demandé&#10;3=&gt; TAF 3/ Crééer une branche &quot;Travail Avant TAF&quot; : puis supprimer tous les fichiers et dossiers non requis dans le devoir, commiter + pusher et faire la branche &quot;Travail TAF&quot; qui sera rendue.&#10;&#10;3=&gt;&#10;4=&gt;" />
     <MESSAGE value="12K-Q-6 Ajout favicon + Image dans Article + FigCaption dans image (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Après Midi 16h49)&#10;1=&gt; TAF 1/ Passer le code dans CP pour le commenter de façon uniforme.&#10;2=&gt; TAF 2/ Relire l'énoncé et vérifier que nous avons fait tout ce qui est demandé. Que nous avons nommé tous les dossiers comme demandé&#10;3=&gt; TAF 3/ Crééer une branche &quot;Travail Avant TAF&quot; : puis supprimer tous les fichiers et dossiers non requis dans le devoir, commiter + pusher et faire la branche &quot;Travail TAF&quot; qui sera rendue.&#10;&#10;3=&gt;&#10;4=&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="12K-Q-6 Ajout favicon + Image dans Article + FigCaption dans image (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Après Midi 16h49)&#10;1=&gt; TAF 1/ Passer le code dans CP pour le commenter de façon uniforme.&#10;2=&gt; TAF 2/ Relire l'énoncé et vérifier que nous avons fait tout ce qui est demandé. Que nous avons nommé tous les dossiers comme demandé&#10;3=&gt; TAF 3/ Crééer une branche &quot;Travail Avant TAF&quot; : puis supprimer tous les fichiers et dossiers non requis dans le devoir, commiter + pusher et faire la branche &quot;Travail TAF&quot; qui sera rendue.&#10;&#10;3=&gt;&#10;4=&gt;" />
+    <MESSAGE value="12K-Q-7 Ajout favicon + Image dans Article + FigCaption dans image (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Après Midi 16h49)&#10;1=&gt; Relecture CSS +  Correction, traduction de tous les commentaires CSS en français, suppression commentaires inutiles et de fragments de codes mis en commentaires" />
+    <option name="LAST_COMMIT_MESSAGE" value="12K-Q-7 Ajout favicon + Image dans Article + FigCaption dans image (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Après Midi 16h49)&#10;1=&gt; Relecture CSS +  Correction, traduction de tous les commentaires CSS en français, suppression commentaires inutiles et de fragments de codes mis en commentaires" />
   </component>
 </project>
