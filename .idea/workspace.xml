@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f948fe14-30dd-447b-a01e-708b85206ea6" name="Changes" comment="12K-Q-3 All OK (Menu XXL et Menu S) (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Matin 03h51)&#10;1=&gt; Les Menu XXL et S sont Ok +  Les logo s'affichent comme voulu&#10;2=&gt; TAF 1) Copier les modifications sur les 2 autres pages&#10;3=&gt; TAF 2) Faire un 2e fichier Template&#10;&#10;3=&gt; TAF 3) &#10;4=&gt;">
-      <change afterPath="$PROJECT_DIR$/template-site-web-sans-mainVen16Aout2024.html" afterDir="false" />
+    <list default="true" id="f948fe14-30dd-447b-a01e-708b85206ea6" name="Changes" comment="12K-Q-4 All Work is Finish - Tout Fonctionne (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Matin 03h51)&#10;1=&gt; TAF 1) Relire l'article&#10;2=&gt; &#10;3=&gt; &#10;&#10;3=&gt;&#10;4=&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recherche.html" beforeDir="false" afterPath="$PROJECT_DIR$/recherche.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +87,7 @@
       <workItem from="1723376382617" duration="6386000" />
       <workItem from="1723401148264" duration="25396000" />
       <workItem from="1723556543854" duration="61489000" />
-      <workItem from="1723771078212" duration="2874000" />
-    </task>
-    <task id="LOCAL-00009" summary="Iteration 9 ( retour a version avant pause apres midi )">
-      <created>1723401006860</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1723401006860</updated>
+      <workItem from="1723771078212" duration="4975000" />
     </task>
     <task id="LOCAL-00010" summary="Iteration 10 ( moins mauvaise version avant pause apres midi )">
       <created>1723401732500</created>
@@ -434,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723773185763</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="12K-Q-4 All Work is Finish - Tout Fonctionne (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Matin 03h51)&#10;1=&gt; TAF 1) Relire l'article&#10;2=&gt; &#10;3=&gt; &#10;&#10;3=&gt;&#10;4=&gt;">
+      <created>1723774131598</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1723774131598</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +462,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12K-B (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Test Push après problemes avec gros fichiers images&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
     <MESSAGE value="12K-B Alpha (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Test Push après problemes avec gros fichiers images&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
     <MESSAGE value="12K-B Beta (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Test Push après problèmes avec gros fichiers images&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
     <MESSAGE value="12K-C (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout Image dans un article : trop grande. Avant de faire els corrections, je sauvegarde&#10;2=&gt;Nouvel ajout textes correct dans &quot;Source&quot; et Institution&#10;3=&gt;&#10;4=&gt;" />
@@ -489,6 +486,7 @@
     <MESSAGE value="12K-Q-1 MENU XXL Centré +  Search Box Centrée (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Tout le reste fonctionne : article s'affichant sous la photo&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;" />
     <MESSAGE value="12K-Q-2 LOGO Taille S ok. Mais Affichage texte sous image perdu. (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; CSS Superflu suprimé.  Logo visible affiché juste au-dessus lignes&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;" />
     <MESSAGE value="12K-Q-3 All OK (Menu XXL et Menu S) (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Matin 03h51)&#10;1=&gt; Les Menu XXL et S sont Ok +  Les logo s'affichent comme voulu&#10;2=&gt; TAF 1) Copier les modifications sur les 2 autres pages&#10;3=&gt; TAF 2) Faire un 2e fichier Template&#10;&#10;3=&gt; TAF 3) &#10;4=&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="12K-Q-3 All OK (Menu XXL et Menu S) (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Matin 03h51)&#10;1=&gt; Les Menu XXL et S sont Ok +  Les logo s'affichent comme voulu&#10;2=&gt; TAF 1) Copier les modifications sur les 2 autres pages&#10;3=&gt; TAF 2) Faire un 2e fichier Template&#10;&#10;3=&gt; TAF 3) &#10;4=&gt;" />
+    <MESSAGE value="12K-Q-4 All Work is Finish - Tout Fonctionne (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Matin 03h51)&#10;1=&gt; TAF 1) Relire l'article&#10;2=&gt; &#10;3=&gt; &#10;&#10;3=&gt;&#10;4=&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="12K-Q-4 All Work is Finish - Tout Fonctionne (Départ de Iteration 7 Design Restored - Travail Ven 16 Aout 2024 Matin 03h51)&#10;1=&gt; TAF 1) Relire l'article&#10;2=&gt; &#10;3=&gt; &#10;&#10;3=&gt;&#10;4=&gt;" />
   </component>
 </project>
