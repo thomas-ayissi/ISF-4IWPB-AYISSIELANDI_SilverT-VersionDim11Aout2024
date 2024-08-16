@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f948fe14-30dd-447b-a01e-708b85206ea6" name="Changes" comment="12K-Q-1 MENU XXL Centré +  Search Box Centrée (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Tout le reste fonctionne : article s'affichant sous la photo&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;">
+    <list default="true" id="f948fe14-30dd-447b-a01e-708b85206ea6" name="Changes" comment="12K-Q-2 LOGO Taille S ok. Mais Affichage texte sous image perdu. (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; CSS Superflu suprimé.  Logo visible affiché juste au-dessus lignes&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,14 +85,8 @@
       <updated>1723376381466</updated>
       <workItem from="1723376382617" duration="6386000" />
       <workItem from="1723401148264" duration="25396000" />
-      <workItem from="1723556543854" duration="61358000" />
-    </task>
-    <task id="LOCAL-00007" summary="Iteration 7 ( design retored n+1 - but it's next step css n-1)">
-      <created>1723381843934</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1723381843935</updated>
+      <workItem from="1723556543854" duration="61489000" />
+      <workItem from="1723771078212" duration="1680000" />
     </task>
     <task id="LOCAL-00008" summary="Iteration 7 ( design rebroken - Screenshoot problems)">
       <created>1723400512709</created>
@@ -429,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723766306852</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="12K-Q-2 LOGO Taille S ok. Mais Affichage texte sous image perdu. (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; CSS Superflu suprimé.  Logo visible affiché juste au-dessus lignes&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;">
+      <created>1723769852990</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1723769852990</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12K-E (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Ajout images dans dossier images-huge&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
     <MESSAGE value="12K-F (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Suppression images dans dossier images-huge&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
     <MESSAGE value="12K-B (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Test Push après problemes avec gros fichiers images&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
     <MESSAGE value="12K-B Alpha (Départ de Iteration 7 Design Restored - Debut Travail Lun 12 Aout 2024 Soir)&#10;1=&gt;Test Push après problemes avec gros fichiers images&#10;2=&gt;&#10;3=&gt;&#10;4=&gt;" />
@@ -484,6 +485,7 @@
     <MESSAGE value="12K-Q Ter (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Menu &quot;Large&quot; Ok&#10;2=&gt; Menu &quot;smartPhone&quot; Ok&#10;3=&gt; Passage parfait du menu &quot;large&quot; (Ordinateur et Tablette) au menu &quot;Smartphone&quot;&#10;&#10;3=&gt; TAF 1 : centrer menu &quot;normal&quot; +  Search Bar&#10;4=&gt; TAF 2 : Afficher menu &quot;SmartPhone&quot; sous forme d'une vraie liste déroulante et non plus d'une liste où tous les éléments sont mélangés comme actuellement." />
     <MESSAGE value="12K-R Ter (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Plein de pagaille et de code copié et mal supprimé, j'ai perdu des fonctionnalités, nous allons reculer dans le temps et crééer une banche à partir du commit précédent.&#10;2=&gt; &#10;3=&gt; &#10;&#10;3=&gt; &#10;4=&gt;" />
     <MESSAGE value="12K-Q-1 MENU XXL Centré +  Search Box Centrée (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Tout le reste fonctionne : article s'affichant sous la photo&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="12K-Q-1 MENU XXL Centré +  Search Box Centrée (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; Tout le reste fonctionne : article s'affichant sous la photo&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;" />
+    <MESSAGE value="12K-Q-2 LOGO Taille S ok. Mais Affichage texte sous image perdu. (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; CSS Superflu suprimé.  Logo visible affiché juste au-dessus lignes&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="12K-Q-2 LOGO Taille S ok. Mais Affichage texte sous image perdu. (Départ de Iteration 7 Design Restored - Travail Lun 15 Aout 2024 Soir 22h59)&#10;1=&gt; CSS Superflu suprimé.  Logo visible affiché juste au-dessus lignes&#10;2=&gt; TAF 1) Afficher le menu en lignes superposées (les unes au dessus des autres) sur Tablettes et Smartphones&#10;3=&gt; TAF 2) Afficher le logo sur les plus petits écrans&#10;&#10;3=&gt; TAF 3) Copier les modifications sur les 2 autres pages&#10;4=&gt;" />
   </component>
 </project>
