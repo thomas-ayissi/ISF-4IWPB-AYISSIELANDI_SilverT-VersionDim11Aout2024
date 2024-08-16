@@ -308,6 +308,25 @@ article img {
 
 /* Fin articles "side bar" - situés à coté*/
 
+/*Début Centrer image dans page Article + Mettre en italique le résumé de l'article*/
+.image-article-dough-jamaica {
+    text-align: center;
+}
+
+.image-article-dough-jamaica img {
+    display: block;
+    margin: 0 auto;
+}
+
+.image-article-dough-jamaica figcaption {
+    color: gray;
+}
+.resume-article-dough {
+    font-style: italic;
+}
+/*Fin centrer image dans page Article + Mettre en italique le résumé de l'article*/
+
+
 /* Début Footer */
 .footer {
     background-color: #6a6262; /* Couleur de fond sombre */
