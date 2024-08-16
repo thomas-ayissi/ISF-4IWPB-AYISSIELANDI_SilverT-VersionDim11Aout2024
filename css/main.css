@@ -18,9 +18,9 @@ p {
 
 
 .container {
-    max-width: 1200px; /* Définissez une largeur maximale pour le conteneur */
-    margin: 0 auto; /* Centrez le conteneur horizontalement */
-    padding: 0 15px; /* Ajoutez un peu de padding pour éviter que le contenu touche les bords */
+    max-width: 1200px; /* Définit une largeur maximale pour le conteneur */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    padding: 0 15px; /* Ajoute un peu de padding pour éviter que le contenu touche les bords */
 }
 .top-bar {
     display: flex;
@@ -64,7 +64,7 @@ p {
 
 
 .top-bar-left img:first-of-type {
-    width: 35%; /* Ajustez la largeur selon vos besoins */
+    width: 35%; /* Ajuste la largeur selon vos besoins */
     height: auto; /* Maintient le ratio d'aspect de l'image */
 }
 
@@ -105,24 +105,24 @@ header {
 /* Début CSS - Jeu 15 Aout 2024 - Affichage Menu Ordinateur et Tablette */
 
 .menu {
-    color: white; /* Afficher le texte en blanc */
-    text-align: center; /* Centrer le menu sur la page */
+    color: white; /* Affiche le texte en blanc */
+    text-align: center; /* Centre le menu sur la page */
 }
 
 .menu nav {
-    list-style: none; /* Supprimer les puces */
+    list-style: none; /* Suppression des puces */
     padding: 0;
-    display: inline-block; /* Centrer le menu */
+    display: inline-block; /* Centre le menu */
 }
 
 .menu nav a {
-    color: white; /* Afficher les liens en blanc */
-    text-decoration: none; /* Supprimer la couleur bleue des liens */
-    margin: 0 10px; /* Espacement entre les liens */
+    color: white; /* Affiche les liens en blanc */
+    text-decoration: none; /* Supprime la couleur bleue des liens */
+    margin: 0 10px; /* Ajout d'espace entre les liens */
 }
 
 #hamburger, #hamburger-logo {
-    display: none; /* Cacher le symbole Hamburger et la case de la checkbox sur les écrans d'ordinateur ou de tablette */
+    display: none; /* Cache le symbole Hamburger et la case de la checkbox sur les écrans d'ordinateur ou de tablette */
 }
 
 
@@ -260,9 +260,9 @@ article {
 
 .article-image {
     float: left;
-    margin: 0 20px 20px 0; /* Espace autour de l'image */
-    width: 150px; /* Largeur de l'image */
-    height: auto; /* Hauteur automatique pour conserver les proportions */
+    margin: 0 20px 20px 0; /* Ajout espace autour de l'image */
+    width: 150px; /* Permet de regler la largeur de l'image */
+    height: auto; /* Permet de régler la hauteur automatique pour conserver les proportions */
 }
 
 .article-content {
@@ -324,7 +324,7 @@ article img {
 .resume-article-dough {
     font-style: italic;
 }
-/*Fin centrer image dans page Article + Mettre en italique le résumé de l'article*/
+/*Fin centrer image dans page Article + Mise en italique du résumé de l'article*/
 
 
 /* Début Footer */
@@ -391,7 +391,7 @@ hr {
     text-align: center;
     margin-top: 10px;
     font-size: 14px;
-    width: 100%; /* Assure que le texte de copyright occupe toute la largeur */
+    width: 100%; /* Fait que le texte de copyright occupe toute la largeur */
 }
 
 .footer-copyright a {
@@ -472,12 +472,12 @@ hr {
     /* #hamburger, #hamburger-logo: Taille de police de 1.75rem pour le hamburger et son logo, équivalent à la taille H3 */
     #hamburger,
     #hamburger-logo {
-        font-size: 1.75rem; /* Equivalent to H3 size */
+        font-size: 1.75rem; /* Permet d'avoir l'aspect de la balise H3 */
     }
 
     /* .top-bar-left img:first-of-type: Largeur de 15% pour la première image de .top-bar-left, hauteur automatique pour maintenir le ratio */
     .top-bar-left img:first-of-type {
-        width: 25%; /* Ajustez la largeur selon vos besoins */
+        width: 25%; /* Permet d'ajuster la largeur */
         height: auto; /* Maintient le ratio d'aspect de l'image */
     }
 
@@ -579,23 +579,6 @@ hr {
 @media (min-width: 769px) and (max-width: 1024px) {
 
 
-
-
-
-/*
-    .hamburger-menu {
-        display: none;
-    }
-
-    #dropdown-menu {
-        display: none;
-    } */
-
-
-    /* */
-    /* */
-    /* */
-
     .article-image {
         float: none;
         margin: 0 auto 20px;
@@ -606,9 +589,6 @@ hr {
         text-align: center;
     }
 
-    /* */
-    /* */
-    /* */
 
 }
 
@@ -658,21 +638,6 @@ hr {
         display: none;
     }
 }
-    /*  */
-    /*  */
-    /*  */
-
-    /*  */
-    /*  */
-    /*  */
-
-
-
-
-
-/*  */
-/*  */
-/*  */
 
 
 /* FIN MEDIAS QUERIES*/
@@ -721,7 +686,7 @@ hr {
 .button-group {
     display: flex;
     justify-content: flex-end; /* Aligne le bouton à droite */
-    width: 100%; /* Assure que le bouton occupe toute la largeur disponible */
+    width: 100%; /* Fait que le bouton occupe toute la largeur disponible */
 }
 
 button[type="submit"] {
@@ -740,9 +705,3 @@ button[type="submit"]:hover {
 
 /*Fin CSS - Page Recherche*/
 
-
-/*Début Medias Queries*/
-
-
-
-/* Fin Medias Queries*/
